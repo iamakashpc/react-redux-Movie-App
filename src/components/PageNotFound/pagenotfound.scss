@@ -1,1 +1,8 @@
-rafce
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+}
+.photo{
+    width: 80%;
+}
