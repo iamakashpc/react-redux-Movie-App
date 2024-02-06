@@ -1,0 +1,24 @@
+@import "../src/common/color.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: $primary-color;
+}
+
+.container {
+  margin: 0px 40px;
+
+  @media (max-width: 768px) {
+    margin: 0px 20px; // Adjust margin for smaller screens
+  }
+}

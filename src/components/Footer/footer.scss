@@ -1,0 +1,17 @@
+@import "../../common/color.scss";
+
+.footer {
+  background: $secondary-color;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $font-primary;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768px */
+    /* For example, adjust the height for smaller screens */
+    height: 50px;
+  }
+}
